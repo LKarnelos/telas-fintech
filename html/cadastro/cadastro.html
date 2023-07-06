@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/arquivos_bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <!--Todos esses "cols" farão funciona rmelhor em diversos dispositivos, mobile, desktop...-->
+      <div class="col-lg-8 col-md-10 col-sm-12">
+        <h1 class="fonteAlterada text-center">Preencha o formulário</h1>
+        
+        <div class="card p-4">
+        <form action="#">
+          <h4 class="fonteAlterada text-center">Dados pessoais</h4>
+
+          <div class="row justify-content-around">
+            <div class="col-12">
+              <label for="nomeCompleto" class="fonteAlterada mt-2">Nome completo</label>
+              <input type="text" class="form-control" required>
+            </div>
+
+            <div class="col-6">
+              <label for="email" class="fonteAlterada mt-2">E-mail</label>
+              <input type="text" class="form-control " required>
+            </div>
+            
+            <div class="col-6">
+              <label for="celular" class="fonteAlterada mt-2">Celular</label>
+              <input type="text" class="form-control " required>
+            </div>
+  
+              <div class="col-6">
+              <label for="cpf" class="fonteAlterada mt-2">CPF</label>
+              <input type="text" id="cpf" class="form-control " required>
+            </div> 
+
+            <div class="col-6">
+              <label for="dataNascimento" class="fonteAlterada mt-2">Data de nascimento</label>
+              <input type="date" class="form-control " required>
+            </div>
+          </div>
+
+          <div class="row justify-content-around mt-4">
+
+            <div class="col-6">
+            <label for="cidade" class="fonteAlterada mt-2">Cidade</label>
+            <input type="text" class="form-control " required>
+          </div>
+
+            <div class="col-6">
+            <label for="rua" class="fonteAlterada mt-2">Rua</label>
+            <input type="text" class="form-control " required>
+          </div>
+
+          <div class="col-4">
+            <label for="estado" class="fonteAlterada mt-2">Estado</label>
+            <input type="text" class="form-control " required>
+          </div>
+
+          <div class="col-4">
+            <label for="complemento" class="fonteAlterada mt-2">Complemento</label>
+            <input type="text" class="form-control " required>
+          </div>
+
+          <div class="col-4">
+            <label for="numero" class="fonteAlterada mt-2">Número</label>
+            <input type="text" class="form-control " required>
+          </div>
+
+           
+
+            
+              
+          <div class="col-6 mt-4">
+              <label for="senha" class="fonteAlterada mt-2">Senha</label>
+              <input type="password" class="form-control " placeholder="Digite sua senha" required>
+            </div>
+            <div class="col-6 mt-4">
+              <label for="senhaConfirmada" class="fonteAlterada mt-2">Confirmação da senha</label>
+              <input type="password" class="form-control " placeholder="Digite outra vez" required>
+            </div>
+           
+          </div>
+
+            <div class="text-center mt-4">
+             
+              <button type="submit" class="fonteAlterada btn btn-primary col-6">Criar conta</button>
+            </div>
+         
+        </form>
+        </div>
+        </div>
+      </div>
+    </div>
+               
+    <script src="/arquivos_bootstrap/bootstrap.min.js"></script>
+</body>
+</html> 
